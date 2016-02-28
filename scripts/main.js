@@ -36,7 +36,7 @@ var makeArray = function(width, height, d) {
 };
 
 
-var dimensions = [1000, 1000];
+var dimensions = [300, 300];
 var gr = makeArray(dimensions[0], dimensions[1], 0);
 var thegrid = clickableGrid(dimensions[0], dimensions[1], function(el, r, c ,i) {
 	var m;
